@@ -1,0 +1,140 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article img {
+    border-radius: 30px;
+}
+
+article > #communique1 {
+    text-align: justify;
+    /*background: #9aa7d0;
+    box-shadow: 0 0 10 px 5 px #646d8a inset;*/
+    margin: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: #42729b;
+    box-shadow: 0 0 10px 5px #2e4a69 inset;
+}
+
+#imgtablet {
+    width: auto;
+    height: 250px;
+    padding: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+article > #communique2 {
+    text-align: justify;
+    /*background: #9aa7d0;
+    box-shadow: 0 0 10 px 5 px #646d8a inset;*/
+    margin: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    background: #689b8d;
+    box-shadow: 0 0 10px 5px #41695b inset;
+}
+
+main div > h2, h3 {
+    text-align: center;
+}
+
+#imgpuce {
+    width: auto;
+    height: 280px;
+    padding: 10px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.datelieu {
+    font-weight: bold;
+}
+
+main div {
+    margin: 10px;
+}
+
+#responsable {
+    box-shadow: 0 0 6px 3px #5f6466 inset;
+    margin: 30px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #8c969b;
+}
+
+
+@media (max-width: 835px) {
+    main {
+        width: 100%;
+    }
+
+    article > #communique1 {
+        margin: 20px;
+        padding: 10px 10px;
+        text-align: justify;
+    }
+
+    article > #communique2 {
+        margin: 20px;
+        padding: 10px 10px;
+        text-align: justify;
+    }
+
+    div > h2, h3 {
+        text-align: center;
+    }
+
+    h1 {
+        width: 98%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1020px) {
+    #menuBurger {
+        position: relative;
+        bottom: 10px;
+    }
+
+    #imgBurger {
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+@media (max-width: 565px) {
+    #imgtablet {
+        height: 150px;
+        align-items: center;
+    }
+
+    #imgpuce {
+        height: 170px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 375px) {
+    #imgtablet {
+        height: 125px;
+        align-items: center;
+    }
+
+    #imgpuce {
+        height: 145px;
+        align-items: center;
+    }
+}

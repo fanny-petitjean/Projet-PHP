@@ -1,0 +1,262 @@
+@font-face {
+    font-family: PaytoneOne;
+    src: url("../fonts/PaytoneOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: UbuntuB;
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoR;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoB;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuT;
+    src: url("../fonts/Ubuntu-Title.ttf");
+}
+
+@font-face {
+    font-family: Title;
+    src: url("../fonts/Bariol_Bold.otf");
+}
+
+@font-face {
+    font-family: MonsteratSB;
+    src: url("../fonts/Montserrat-SemiBold.ttf");
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #17232c;
+    max-height: 10vh;
+    min-height: 40px;
+    height: auto;
+    padding: 5px 0;
+    font-family: MonsteratSB, serif;
+    font-weight: 600;
+    z-index: 1000;
+}
+
+#logo {
+    width: auto;
+    height: 75px;
+    padding: 10px 0;
+    max-height: 10vh;
+    min-height: 40px;
+}
+
+#menu, #menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    position: relative;
+    border-radius: 8px 8px 8px 8px;
+    background-color: #8c969b;
+}
+
+#menu ul li {
+    display: inherit;
+    border-radius: 0;
+    background-color: #737d82;
+}
+
+#menu ul li:hover {
+    border-radius: 0;
+}
+
+#menu ul li:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+#menu ul li:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+#menu ul {
+    position: absolute;
+    z-index: 1000;
+    max-height: 0;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    -moz-transition: .8s all .3s ease-in-out;
+    -webkit-transition: .8s all .3s ease-in-out;
+    transition: .8s all .3s ease-in-out;
+}
+
+#menu li:hover ul {
+    max-height: 15em;
+}
+
+#menu a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 20px;
+    color: #0e1f2b;
+}
+
+#menu ul a {
+    padding: 8px 0;
+}
+
+#menu li:hover {
+    background-color: #b3bec3;
+}
+
+header > #divLogo {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+header nav {
+    flex-grow: 9;
+}
+
+header nav > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    font-family: RobotoR, Arial, serif;
+    color: black;
+    background-color: #8c969b;
+    background-image: url("../images/backgroundImg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-shadow: 0 0 10px 5px #2d3337 inset;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+main {
+    padding: 10px 7vw;
+    width: 70%;
+    flex: 1;
+}
+
+h1, h2 {
+    font-family: Title, Arial, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer img {
+    height: 50px;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #17232c;
+    color: #8c969b;
+    align-items: center;
+    padding: 10px 0;
+    height: fit-content;
+    min-height: 200px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0 6px 3px #070a0f inset;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+footer > div > * {
+    padding: 25px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #5a6469;
+}
+
+footer a:hover {
+    color: #b4852a;
+}
+
+footer form {
+    height: fit-content;
+}
+
+form input, select, textarea {
+    background-color: #d7e1e6;
+}
+
+footer input {
+    background-color: #bec8cd;
+}
+
+#burger {
+    display: none;
+}
+
+main p {
+    line-height: 25px;
+}
+
+footer p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+footer label {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.title {
+    background-color: #194b6f;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #bec8cd !important;
+}
+
+
+
+
+
+
+
+

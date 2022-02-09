@@ -1,0 +1,30 @@
+main h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form {
+    background-color: #8c969b;
+    border-radius: 10px;
+    border: 4px solid #194b6f;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+
+
+fieldset {
+    margin: 10px 30px;
+    border: 1px solid #596368;
+}
+
+.readonly{
+    background-color: rgba(152, 152, 219, 0.44);
+}

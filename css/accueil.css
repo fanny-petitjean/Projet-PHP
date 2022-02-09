@@ -1,0 +1,144 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: min(5vh, 40px) 7vw;
+}
+
+main > article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    height: auto;
+}
+
+#imgChip {
+    height: 175px;
+    width: auto;
+}
+
+#imgLogo {
+    height: 90px;
+    width: auto;
+}
+
+#imgTeam {
+    height: 165px;
+    width: auto;
+}
+
+#imgJoinUs {
+    height: 180px;
+    width: auto;
+}
+
+#imgContact {
+    height: 175px;
+    width: auto;
+}
+
+#imgFaq {
+    width: auto;
+    height: 175px;
+}
+
+main article:first-child {
+    border-radius: 50px 50px 0 0;
+}
+
+main article:last-child {
+    border-radius: 0 0 50px 50px;
+}
+
+main > article:nth-child(2n) {
+    background: #689b8d;
+    box-shadow: 0 0 10px 5px #41695b inset;
+}
+
+main > article:nth-child(2n+1) {
+    background: #42729b;
+    box-shadow: 0 0 10px 5px #2e4a69 inset;
+}
+
+main .divImage {
+    width: fit-content;
+    height: auto;
+    min-height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+main .divTexte {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+main .divTexte p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main a {
+    text-decoration: none;
+    color: black;
+}
+
+main > article:nth-child(2n) a:hover {
+    color: #233450;
+}
+
+main > article:nth-child(2n+1) a:hover {
+    color: #2c5043;
+}
+
+article {
+    padding: 15px 0;
+}
+
+@media (max-width: 835px) {
+    main > article {
+        flex-direction: column;
+        width: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main .divTexte {
+        width: 90%;
+    }
+
+    h1 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 430px) {
+    #imgLogo {
+        height: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+http://romainlebreton.github.io/ProgWeb-CoteServeur/projet.html
+https://webinfo.iutmontp.univ-montp2.fr/~birone/projetphp-petitjean-randrianasolo-biron/
+https://webinfo.iutmontp.univ-montp2.fr/my/index.php?token=50bfb7b132c2bf5ffaaaefda5de7ea9b

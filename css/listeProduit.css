@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+#content {
+    background-color: #689b8d;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px #41695b inset;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+article p {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+
+main article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 50px;
+}
+
+
+@media (max-width: 1024px) {
+    main article {
+        flex-direction: column;
+        margin: 0;
+    }
+
+}
+
+.alignement{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
